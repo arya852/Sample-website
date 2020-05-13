@@ -1,0 +1,489 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>sample page!</title>
+<style>
+html
+{
+	scroll-behavior:smooth;
+}
+body
+{
+	margin:0px;
+	padding:0px;
+}
+.nav
+{
+	position:fixed;
+	height:75px;
+	width:100%;
+	box-sizing:border-box;
+	background-color:#FFF;
+	position:fixed;
+}
+.nv1
+{
+	height:10px;
+	width:25%;
+	box-sizing:border-box;
+	background-color:#FFF;
+	float:left;
+	padding:20px;
+}
+.nv1 a
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:23px;
+	color:#000;
+	text-decoration:none;
+	float:left;
+	text-align:center;
+	padding:2px 90px;
+}
+
+.nv2
+{
+	height:10px;
+	width:38%;
+	box-sizing:border-box;
+	background-color:#FFF;
+	float:left;
+	padding:28px;
+}
+.nv2 a
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#000;
+	text-decoration:none;
+	text-align:center;
+	padding:5px 19px;
+}
+.nv2 a:hover
+{
+	color:#F00;
+}
+.nv3
+{
+	height:10px;
+	width:21%;
+	box-sizing:border-box;
+	float:left;
+	background-color:#FFF;
+	padding:28px 0px;
+	padding-bottom:20px;
+	padding-left:70px;
+}
+.nv3 a
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#000;
+	text-decoration:none;
+	text-align:center;
+	padding:10px 10px;
+}
+.nv3 a:hover
+{
+	color:#F00;
+}
+.nv4
+{
+	height:39px;
+	width:140px;
+	margin-right:70px;
+	margin-top:15px;
+	background-color:#C30;
+	box-sizing:border-box;
+	float:right;
+	padding:5px;
+	padding-top:15px;
+}
+.nv4 a
+{
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:14px;
+	color:#FFF;
+	text-decoration:none;
+	margin-top:10px;
+	height:39px;
+	width:10%;
+}
+.nv4 a:hover
+{
+	background-color:#000;
+	color:#FFF;
+}
+
+.box1
+{
+	height:650px;
+	width:100%;
+	box-sizing:border-box;
+	background-image:url(images/image1.jpg);
+	background-size:100% 650px;
+	background-attachment:local;
+}
+.box1b
+{
+	height:39px;
+	width:160px;
+	margin-right:1100px;
+	margin-top:15px;
+	background-color:#C30;
+	box-sizing:border-box;
+	float:right;
+	padding-left:20px;
+	padding-top:13px;
+}
+.box1b a
+{
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:14px;
+	color:#FFF;
+	text-decoration:none;
+	margin-top:50px;
+	height:39px;
+	width:10%;
+}
+.box1b a:hover
+{
+	background-color:#FFF;
+	color:#000;
+}
+.box1text
+{
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:30px;
+	float:left;
+	margin-top:50px;
+	margin-left:70px;
+	padding-top:0px;
+	padding-left:30px;
+	color:#FFF;
+}
+.box2
+{
+	height:550px;
+	width:100%;
+	background-color:#FFF;
+	box-sizing:border-box;
+}
+.box2t1
+{
+	font-family:Segoe Script;
+	font-size:30px;
+	text-decoration:none;
+	color:#000;
+	float:left;
+	margin-top:30px;
+	margin-left:70px;
+}
+.box2t2
+{
+	font-family:Century Gothic;
+	font-size:20px;
+	text-decoration:none;
+	color:#000;
+	float:left;
+	margin-top:250px;
+	margin-left:-450px;
+}
+.box2i
+{
+	height:550px;
+	width:50%;
+	float:right;
+	background-image:url(file:///C|/Users/Lenovo/Desktop/templatemo_515_eatery/images/about-image.jpg);
+	background-size:100% 500px;
+	box-sizing:border-box;
+	margin-top:0px;
+}
+.box3
+{
+	height:950px;
+	width:100%;
+	box-sizing:border-box;
+	background-color:#F2F2F2;
+	padding-left:20px;
+	padding-top:40px;
+}	
+.box3i
+{
+	height:550px;
+	width:28%;
+	background-color:#000;
+	box-sizing:border-box;
+	float:left;
+	margin-left:50px;
+	margin-top:50px;
+	font-size:25px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#000;
+}
+.box4
+{
+	height:879px;
+	width:100%;
+	background-color:#FFF;
+	box-sizing:border-box;
+}
+.box4i
+{
+	height:350px;
+	width:33%;
+	background-color:#000;
+	box-sizing:border-box;
+	float:left;
+	margin:0px;
+	margin-top:0px;
+}
+.box5
+{
+	height:460px;
+	width:100%;
+	background:linear-gradient(
+	rgba(0,0,0,0.45),
+	rgba(0,0,0,0.45)
+	),
+url(file:///C|/Users/Lenovo/Desktop/templatemo_515_eatery/images/testimonial-bg.jpg);
+	background-size:100% 660px;
+	background-attachment:fixed;
+}
+
+.box6
+{
+	height:450px;
+	width:100%;
+	box-sizing:border-box;
+	background-color:#FFF;
+}
+.box6b
+{
+	height:450px;
+	width:50%;
+	box-sizing:border-box;
+	background-color:#FFF;
+	float:left;
+	border-bottom:5px solid #BEBEBE;
+	margin:0px;
+}
+
+input[type=text]
+{
+	width:30%;
+	height:50px;
+	border:none;
+	background:none;
+	border-bottom:1px solid #999;
+}
+.box7
+{
+	height:495px;
+	width:100%;
+	background-color:#FFF;
+	box-sizing:border-box;
+}
+.box7b
+{
+	height:275px;
+	width:25%;
+	background-color:#FFF;
+	border-radius:20px;
+	box-sizing:border-box;
+	float:left;
+	margin-top:120px;
+	margin-left:0px;
+	text-decoration:none;
+}
+.box7b a:hover
+{
+	color:#F00;
+}
+.box7bim
+{
+	height:275px;
+	width:100%;
+	background:linear-gradient(
+	rgba(0,0,0,0.45),
+	rgba(0,0,0,0.45)
+	),
+url(file:///C|/Users/Lenovo/Desktop/templatemo_515_eatery/images/footer-open-hour-bg.jpg);
+	background-size:100% 350px;
+	border-radius:20px;
+}
+</style>
+</head>
+
+
+<body>
+<div class="nav">
+
+<div class="nv1">
+<a href="#"><strong>Eatery.Cafe</strong></a>		
+</div>
+
+<div class="nv2"><strong>
+<a href="#1">HOME</a>
+<a href="#2">ABOUT</a>
+<a href="#3">CHEF</a>
+<a href="#4">MENU</a>
+<a href="#5">CONTACT</a>
+</strong></div>
+
+<div class="nv3"><strong>
+<a href="#1">CALL NOW! 010 020 0340</a>
+</strong></div>
+
+<div class="nv4">
+<a href="#6">Reserve a table</a>
+</div>
+
+</div>
+
+<div class="box1"><a name="1"></a>
+<div style="font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; font-size:19px; color:#FFF; padding-top:300px; padding-left:90px;">EATERY CAFE AND REATAURANT</div>
+<div class="box1text"><p>Our mission is to provide an</p><p>unforgettable experience</p></div>
+
+<div class="box1b">
+<a href="#3">Meet our chef</a>
+</div>
+
+</div>
+
+<div class="box2"><a name="2"></a>
+<div class="box2t1"><p>We've been Making The</p><p>Delicious Food Since 1999</p></div>
+<div class="box2t2"><p>Enjoy the rich and authentic flavours which will make you </p><p>lick your fingers. Tast will bloom you and you will experience</p><p>something very unique.</p><p>Thank you.</p></div>
+
+<div class="box2i"></div>
+
+</div>
+
+<div class="box3"><a name="3"></a>
+<div style="color:#000; font-size:40px; font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif; padding-top:30px;">
+<center><strong>Meet our Chefs</strong></center></div>
+
+<div style="font:'Palatino Linotype', 'Book Antiqua', Palatino, serif; color:#B0B0B0; font-size:20px; padding-top:10px;"><center>THEY ARE NICE AND FRIENDLY</center></div>
+
+
+<div class="box3i">
+<img src="file:///C|/Users/Lenovo/Desktop/templatemo_515_eatery/images/team-image1.jpg" height="550px" width="100%"/>
+<div style="color:#000; font-family:'MS Serif', 'New York', serif; font-size:35px; padding-top:50px; padding-left:75px;">New Catherine</div>	
+</div>
+
+
+<div class="box3i">
+<img src="file:///C|/Users/Lenovo/Desktop/templatemo_515_eatery/images/team-image2.jpg" height="550px" width="100%"/>
+<div style="color:#000; font-family:'MS Serif', 'New York', serif; font-size:35px; padding-top:50px; padding-left:85px;">Lindsay Perlen</div>	
+</div>
+
+<div class="box3i">
+<img src="file:///C|/Users/Lenovo/Desktop/templatemo_515_eatery/images/team-image3.jpg" height="550px" width="100%"/>
+<div style="color:#000; font-family:'MS Serif', 'New York', serif; font-size:35px; padding-top:50px; padding-left:90px;">Isabella Grace</div>	
+</div>
+</div>
+
+<div class="box4"><a name="4"></a>
+<div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:45px; color:#000; padding-top:90px;"><center><strong>Our Menus</strong></center></div>
+<div style="font:'Palatino Linotype', 'Book Antiqua', Palatino, serif; color:#B0B0B0; font-size:20px; padding-top:15px;"><center>TEA TIME AND DINING</center></div>
+
+<div class="box4i">
+<img src="file:///C|/Users/Lenovo/Desktop/templatemo_515_eatery/images/menu-image1.jpg" height="350px" width="100%"/></div>
+<div class="box4i">
+<img src="file:///C|/Users/Lenovo/Desktop/templatemo_515_eatery/images/menu-image2.jpg" height="350px" width="100%"/></div>
+<div class="box4i">
+<img src="file:///C|/Users/Lenovo/Desktop/templatemo_515_eatery/images/menu-image3.jpg" height="350px" width="100%"/></div>
+<div class="box4i">
+<img src="file:///C|/Users/Lenovo/Desktop/templatemo_515_eatery/images/menu-image4.jpg" height="350px" width="100%"/></div>
+<div class="box4i">
+<img src="file:///C|/Users/Lenovo/Desktop/templatemo_515_eatery/images/menu-image5.jpg" height="350px" width="100%"/></div>
+<div class="box4i">
+<img src="file:///C|/Users/Lenovo/Desktop/templatemo_515_eatery/images/menu-image6.jpg" height="350px" width="100%"/></div>
+</div>
+</div>
+
+<div class="box5">
+<div style="font-family:'Comic Sans MS', cursive; font-size:35px; color:#FFF; padding-top:95px; letter-spacing:3px;"><center><strong>Testimonials</strong></center></div>
+<div style="font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif; font-size:24px; color:#9F9F9F; padding-top:20px"><center><p>"Products filled with lots of protein and vitamins."</p> <p>"Very tasty food, and the atmosphere is lovely. One of our favorite traditional french restaurant."</p></center></div>
+
+</div>
+
+
+
+
+
+<div class="box6"><a name="5"></a>
+
+<div class="box6b">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58866.67127729668!2d75.8299947038175!3d22.75918458016597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd55b8142ecd%3A0x8a0f2e0db7af1126!2sFreito%20Cafe%20%26%20Restaurant!5e0!3m2!1sen!2sin!4v1589354939376!5m2!1sen!2sin" width="89%" height="415" frameborder="0" style="border:0; padding:15px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+	
+</div>
+
+
+
+
+<div class="box6b">
+<div style="font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif; font-size:35px; color:#000; padding-top:20px; padding-left:15px;">Contact Us</div>
+<input name="name" type="text" placeholder="Name" />
+<input name="email" type="text" placeholder="Email" />
+<p><input name="subject" type="text" placeholder="Subject" /></p>
+<p><input name="about" type="text" placeholder="Tell about your work" /></p>	
+<input type="checkbox" name="remember" /> Remember me 
+<p><button type="submit">Submit</button>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<div class="box7">
+
+<div class="box7b">
+
+<div style="font-family:'Arial Black', Gadget, sans-serif; font-size:29px; color:#000; padding-top:50px;"><center><strong>Find us</strong></center></div>
+
+<div style="font-family:'Arial Black', Gadget, sans-serif; font-size:16px; color:#CACACA; padding:30px;"><p>343-344, Vijay Nagar Square,<br>Near Country Inn, Scheme 54,<br>Indore 452010</p></div>
+</div>
+
+<div class="box7b">
+
+<div style="font-family:'Arial Black', Gadget, sans-serif; font-size:29px; color:#000; padding-top:50px;"><center><strong>Reservation</strong></center></div>
+
+<div style="font-family:'Arial Black', Gadget, sans-serif; font-size:16px; color:#CACACA; padding:30px; text-decoration:none;"><p>093030 30269 | 093030 25741</p><p style="text-decoration:none;"><a href="#">info@company.com</a></p><p>Menu:</p><style="text-decoration:none;"><a href="#">Zomato.com</a></div>
+</div>
+
+
+<div class="box7b">
+
+<div class="box7bim">`	
+
+<div style="font-family:'Arial Black', Gadget, sans-serif; font-size:29px; color:#FFF; padding-top:25px;"><center><strong>Open Hours</strong></center></div>
+
+<div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:16px; color:#CACACA; padding:15px; padding-left:75px;">Monday: Closed</div>
+
+<div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:18px; color:#FFF; padding:15px; padding-left:75px;  padding-top:0px;">Tuesday to Friday</div>
+
+<div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:16px; color:#CACACA; padding:15px; padding-left:75px; padding-top:0px;">7:00 AM - 9:00 PM</div>
+
+<div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:18px; color:#FFF; padding:15px; padding-left:75px;  padding-top:0px;">Saturday - Sunday</div>
+<div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:16px; color:#CACACA; padding:15px; padding-left:75px; padding-top:0px;">11:00 AM - 10:00 PM</div>
+</div>
+
+</div>
+
+<div class="box7b"><a name="6"></a>
+<div style="font-family:'Arial Black', Gadget, sans-serif; font-size:16px; color:#CACACA; padding-top:10px; padding:110px 50px;"><p><br>Copyright &copy; 2018 <br>Freito Cafe & Restaurant</p></div>
+
+</div>
+
+
+</div>
+</body>
+</html>
